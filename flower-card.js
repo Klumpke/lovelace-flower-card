@@ -160,7 +160,7 @@ customElements.whenDefined('card-tools').then(() => {
       @click="${() => cardTools.moreInfo(this.stateObj.entity_id)}"
       >
       <img src="/local/lovelace-flower-card/data/Images/${this.config.species}.jpg">
-      <span id="name"> ${this.stateObj.attributes.friendly_name} - ${Flower[1]}</span>
+      <span id="name"> ${this.stateObj.attributes.friendly_name} </span>
       <span id="species"> ${Flower[0]} </span>
       </div>
       <div class="divider"></div>
